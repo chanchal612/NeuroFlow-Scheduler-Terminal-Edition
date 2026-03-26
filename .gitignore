@@ -1,0 +1,33 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ── Environment variables ──────────────────────────────────────
+.env
+.env.*
+
+# ── NeuroFlow data (task storage) ─────────────────────────────
+# Remove this line if you WANT to commit your saved tasks.
+tasks.json
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
